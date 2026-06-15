@@ -1,0 +1,17 @@
+{
+    "placeassist.config.title": "PlaceAssist Configuration",
+    "placeassist.config.clothconfigrequired": "Cloth Config is required for the configuration screen",
+    "placeassist.config.category.general": "General",
+    "placeassist.config.category.fastplace": "Fast Place",
+    "placeassist.config.category.filters": "Item Filters",
+    "placeassist.config.enabled": "Enable Fast Place",
+    "placeassist.config.enabledOnStartup": "Enable On Startup",
+    "placeassist.config.placementRate": "Placement Rate (per second)",
+    "placeassist.config.smartFiltering": "Smart Filtering",
+    "placeassist.config.excludeFood": "Exclude Food",
+    "placeassist.config.excludeShield": "Exclude Shield",
+    "placeassist.config.excludeBow": "Exclude Bow",
+    "placeassist.config.excludeCrossbow": "Exclude Crossbow",
+    "placeassist.config.excludeTrident": "Exclude Trident",
+    "placeassist.config.excludeUtilityItems": "Exclude Utility Items"
+}

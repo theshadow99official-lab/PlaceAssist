@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "placeassist",
+	"version": "${version}",
+	"name": "PlaceAssist",
+	"description": "A lightweight client-side Fabric mod that provides a configurable Fast Place toggle for builders.",
+	"authors": [
+		"Shadow"
+	],
+	"contact": {
+		"homepage": "https://github.com/shadow/placeassist",
+		"sources": "https://github.com/shadow/placeassist"
+	},
+	"license": "MIT",
+	"icon": "assets/placeassist/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"me.shadow.placeassist.PlaceAssist"
+		],
+		"client": [
+			"me.shadow.placeassist.client.PlaceAssistClient"
+		],
+		"modmenu": [
+			"me.shadow.placeassist.config.ModMenuIntegration"
+		]
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
